@@ -1,0 +1,778 @@
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* CONFIGURAÇÕES GERAIS */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f7f8fa;
+    color: #151515;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* =========================
+   CABEÇALHO
+========================= */
+
+.cabecalho {
+    width: 100%;
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 7%;
+
+    background: white;
+
+    border-bottom: 1px solid #eeeeee;
+
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+
+/* LOGO */
+
+.logo {
+    font-size: 24px;
+    font-weight: 800;
+    color: #111111;
+}
+
+.logo span {
+    color: #246bfe;
+}
+
+
+/* MENU */
+
+.menu {
+    display: flex;
+    gap: 30px;
+}
+
+.menu a {
+    color: #555555;
+    font-size: 15px;
+    font-weight: 500;
+
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: #246bfe;
+}
+
+
+/* BOTÕES DO CABEÇALHO */
+
+.botoes {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.entrar {
+    color: #222222;
+    font-weight: 600;
+    padding: 12px 18px;
+}
+
+.cadastrar {
+    background: #246bfe;
+    color: white;
+
+    padding: 12px 20px;
+
+    border-radius: 8px;
+
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+.cadastrar:hover {
+    background: #1554d1;
+}
+
+
+/* =========================
+   INÍCIO
+========================= */
+
+.inicio {
+    min-height: 650px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 80px 10%;
+
+    background: white;
+}
+
+
+/* TEXTO */
+
+.texto-inicio {
+    max-width: 570px;
+}
+
+.pequeno-titulo {
+    color: #246bfe;
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 20px;
+}
+
+.texto-inicio h1 {
+    font-size: 58px;
+
+    line-height: 1.08;
+
+    margin-bottom: 25px;
+}
+
+.texto-inicio h1 span {
+    color: #246bfe;
+}
+
+.descricao {
+    color: #666666;
+
+    font-size: 18px;
+
+    line-height: 1.7;
+
+    max-width: 500px;
+
+    margin-bottom: 35px;
+}
+
+
+/* BOTÕES INÍCIO */
+
+.botoes-inicio {
+    display: flex;
+    gap: 15px;
+}
+
+.botao-principal {
+    display: inline-block;
+
+    background: #246bfe;
+
+    color: white;
+
+    padding: 15px 25px;
+
+    border-radius: 8px;
+
+    font-weight: 700;
+
+    transition: 0.3s;
+}
+
+.botao-principal:hover {
+    background: #1554d1;
+
+    transform: translateY(-2px);
+}
+
+.botao-secundario {
+    display: inline-block;
+
+    color: #246bfe;
+
+    border: 1px solid #246bfe;
+
+    padding: 15px 25px;
+
+    border-radius: 8px;
+
+    font-weight: 700;
+
+    transition: 0.3s;
+}
+
+.botao-secundario:hover {
+    background: #246bfe;
+
+    color: white;
+}
+
+
+/* =========================
+   CARTÃO GRANDE
+========================= */
+
+.area-cartao {
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+.cartao {
+    width: 400px;
+    height: 250px;
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    background: #151515;
+
+    color: white;
+
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
+
+    transform: rotate(5deg);
+
+    transition: 0.4s;
+}
+
+.cartao:hover {
+    transform: rotate(0deg) translateY(-10px);
+}
+
+.cartao-topo {
+    display: flex;
+
+    justify-content: space-between;
+
+    font-size: 20px;
+}
+
+.cartao-topo span {
+    font-size: 30px;
+}
+
+.numero-cartao {
+    margin-top: 70px;
+
+    font-size: 20px;
+
+    letter-spacing: 2px;
+}
+
+.cartao-final {
+    display: flex;
+
+    justify-content: space-between;
+
+    margin-top: 25px;
+}
+
+.cartao-final small {
+    font-size: 9px;
+
+    color: #aaaaaa;
+}
+
+.cartao-final p {
+    font-size: 12px;
+
+    margin-top: 4px;
+}
+
+
+/* =========================
+   SERVIÇOS
+========================= */
+
+.servicos {
+    padding: 100px 10%;
+}
+
+
+/* TÍTULO */
+
+.titulo-secao {
+    text-align: center;
+
+    max-width: 650px;
+
+    margin: 0 auto 60px;
+}
+
+.titulo-secao p {
+    color: #246bfe;
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 15px;
+}
+
+.titulo-secao h2 {
+    font-size: 40px;
+
+    margin-bottom: 15px;
+}
+
+.titulo-secao span {
+    color: #666666;
+
+    line-height: 1.6;
+}
+
+
+/* CARDS */
+
+.cards {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 20px;
+}
+
+.card {
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 14px;
+
+    border: 1px solid #eeeeee;
+
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-7px);
+
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+}
+
+.icone {
+    font-size: 32px;
+
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    font-size: 20px;
+
+    margin-bottom: 12px;
+}
+
+.card p {
+    color: #666666;
+
+    font-size: 14px;
+
+    line-height: 1.6;
+
+    margin-bottom: 20px;
+}
+
+.card a {
+    color: #246bfe;
+
+    font-size: 14px;
+
+    font-weight: 700;
+}
+
+
+/* =========================
+   BENEFÍCIOS
+========================= */
+
+.beneficios {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 80px;
+
+    padding: 100px 10%;
+
+    background: #151515;
+
+    color: white;
+}
+
+.beneficio-texto > p:first-child {
+    color: #5f91ff;
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 20px;
+}
+
+.beneficio-texto h2 {
+    font-size: 42px;
+
+    line-height: 1.2;
+
+    margin-bottom: 25px;
+}
+
+.beneficio-texto > p:last-child {
+    color: #aaaaaa;
+
+    line-height: 1.7;
+
+    max-width: 450px;
+}
+
+
+/* LISTA */
+
+.lista-beneficios {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 25px;
+}
+
+.beneficio {
+    display: flex;
+
+    gap: 20px;
+
+    padding-bottom: 25px;
+
+    border-bottom: 1px solid #333333;
+}
+
+.numero {
+    color: #5f91ff;
+
+    font-size: 14px;
+
+    font-weight: 700;
+}
+
+.beneficio h3 {
+    margin-bottom: 8px;
+}
+
+.beneficio p {
+    color: #aaaaaa;
+
+    font-size: 14px;
+
+    line-height: 1.5;
+}
+
+
+/* =========================
+   SEÇÃO CARTÃO
+========================= */
+
+.secao-cartao {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 80px;
+
+    padding: 100px 10%;
+
+    background: white;
+}
+
+.secao-cartao > div:first-child {
+    max-width: 550px;
+}
+
+.secao-cartao > div:first-child > p:first-child {
+    color: #246bfe;
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 15px;
+}
+
+.secao-cartao h2 {
+    font-size: 42px;
+
+    margin-bottom: 20px;
+}
+
+.secao-cartao > div:first-child > p:nth-child(3) {
+    color: #666666;
+
+    line-height: 1.7;
+
+    margin-bottom: 30px;
+}
+
+
+/* MINI CARTÃO */
+
+.mini-cartao {
+    width: 350px;
+    height: 210px;
+
+    background: #246bfe;
+
+    color: white;
+
+    border-radius: 18px;
+
+    padding: 25px;
+
+    box-shadow: 0 20px 40px rgba(36, 107, 254, 0.3);
+}
+
+.mini-cartao strong {
+    font-size: 20px;
+}
+
+.chip {
+    width: 45px;
+    height: 32px;
+
+    background: #dddddd;
+
+    border-radius: 7px;
+
+    margin-top: 50px;
+}
+
+.mini-cartao p {
+    margin-top: 20px;
+
+    letter-spacing: 2px;
+}
+
+.mini-cartao small {
+    display: block;
+
+    margin-top: 12px;
+
+    font-size: 9px;
+}
+
+
+/* =========================
+   RODAPÉ
+========================= */
+
+footer {
+    background: #101010;
+
+    color: white;
+
+    padding: 40px 10%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 30px;
+}
+
+footer p {
+    color: #888888;
+
+    font-size: 13px;
+}
+
+.links-footer {
+    display: flex;
+
+    gap: 20px;
+}
+
+.links-footer a {
+    color: #888888;
+
+    font-size: 13px;
+}
+
+.links-footer a:hover {
+    color: white;
+}
+
+
+/* =========================
+   RESPONSIVIDADE
+========================= */
+
+@media (max-width: 1000px) {
+
+    .menu {
+        display: none;
+    }
+
+    .inicio {
+        flex-direction: column;
+
+        gap: 70px;
+
+        text-align: center;
+    }
+
+    .texto-inicio {
+        max-width: 700px;
+    }
+
+    .descricao {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .botoes-inicio {
+        justify-content: center;
+    }
+
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .beneficios {
+        grid-template-columns: 1fr;
+    }
+
+    .secao-cartao {
+        flex-direction: column;
+
+        text-align: center;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .cabecalho {
+        padding: 0 5%;
+    }
+
+    .entrar {
+        display: none;
+    }
+
+    .cadastrar {
+        padding: 10px 14px;
+
+        font-size: 13px;
+    }
+
+    .inicio {
+        padding: 70px 5%;
+    }
+
+    .texto-inicio h1 {
+        font-size: 42px;
+    }
+
+    .descricao {
+        font-size: 16px;
+    }
+
+    .botoes-inicio {
+        flex-direction: column;
+    }
+
+    .cartao {
+        width: 320px;
+
+        height: 200px;
+
+        padding: 22px;
+    }
+
+    .numero-cartao {
+        margin-top: 50px;
+
+        font-size: 15px;
+    }
+
+    .servicos {
+        padding: 70px 5%;
+    }
+
+    .titulo-secao h2 {
+        font-size: 32px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .beneficios {
+        padding: 70px 5%;
+    }
+
+    .beneficio-texto h2 {
+        font-size: 34px;
+    }
+
+    .secao-cartao {
+        padding: 70px 5%;
+    }
+
+    .secao-cartao h2 {
+        font-size: 34px;
+    }
+
+    .mini-cartao {
+        width: 310px;
+    }
+
+    footer {
+        padding: 40px 5%;
+
+        text-align: center;
+    }
+
+    .links-footer {
+        flex-wrap: wrap;
+
+        justify-content: center;
+    }
+}
+#title-pagina {
+    color:black;
+
+}
+

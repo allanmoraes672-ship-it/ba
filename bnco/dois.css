@@ -1,0 +1,258 @@
+
+/* =========================
+   LOGIN E CADASTRO
+========================= */
+
+.pagina-formulario {
+    min-height: calc(100vh - 160px);
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 70px 20px;
+
+    background: #f7f8fa;
+}
+
+
+.formulario {
+    width: 100%;
+
+    max-width: 460px;
+
+    background: white;
+
+    padding: 45px;
+
+    border-radius: 16px;
+
+    border: 1px solid #eeeeee;
+
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
+}
+
+
+/* TÍTULO */
+
+.titulo-formulario {
+    text-align: center;
+
+    margin-bottom: 35px;
+}
+
+.titulo-formulario p {
+    color: #246bfe;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 12px;
+}
+
+.titulo-formulario h1 {
+    font-size: 32px;
+
+    margin-bottom: 12px;
+}
+
+.titulo-formulario span {
+    color: #777777;
+
+    font-size: 14px;
+}
+
+
+/* CAMPOS */
+
+.campo {
+    margin-bottom: 20px;
+}
+
+.campo label {
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-size: 14px;
+
+    font-weight: 600;
+}
+
+.campo input {
+    width: 100%;
+
+    height: 50px;
+
+    padding: 0 15px;
+
+    border: 1px solid #dddddd;
+
+    border-radius: 8px;
+
+    outline: none;
+
+    font-size: 15px;
+
+    transition: 0.3s;
+}
+
+.campo input:focus {
+    border-color: #246bfe;
+
+    box-shadow: 0 0 0 3px rgba(36, 107, 254, 0.1);
+}
+
+
+/* TERMOS */
+
+.termos {
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    margin: 20px 0;
+
+    color: #666666;
+
+    font-size: 13px;
+}
+
+.termos input {
+    width: 16px;
+
+    height: 16px;
+}
+
+
+/* LEMBRAR */
+
+.lembrar {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 10px;
+
+    margin: 20px 0;
+
+    font-size: 13px;
+}
+
+.lembrar label {
+    display: flex;
+
+    align-items: center;
+
+    gap: 7px;
+
+    color: #666666;
+}
+
+.lembrar a {
+    color: #246bfe;
+
+    font-weight: 600;
+}
+
+
+/* BOTÃO */
+
+.botao-formulario {
+    width: 100%;
+
+    height: 52px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background: #246bfe;
+
+    color: white;
+
+    font-size: 15px;
+
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.botao-formulario:hover {
+    background: #1554d1;
+
+    transform: translateY(-2px);
+}
+
+
+/* TROCAR LOGIN/CADASTRO */
+
+.trocar-pagina {
+    text-align: center;
+
+    color: #777777;
+
+    font-size: 14px;
+
+    margin-top: 25px;
+}
+
+.trocar-pagina a {
+    color: #246bfe;
+
+    font-weight: 700;
+}
+
+
+/* RESPONSIVO */
+
+@media (max-width: 600px) {
+
+    .pagina-formulario {
+        padding: 40px 15px;
+    }
+
+    .formulario {
+        padding: 30px 22px;
+    }
+
+    .titulo-formulario h1 {
+        font-size: 27px;
+    }
+
+    .lembrar {
+        align-items: flex-start;
+
+        flex-direction: column;
+    }
+}
+
+.entrar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #030303;
+    color: rgb(219, 217, 217);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.entrar:hover {
+    background-color: #fcfdff;
+}
+
+#titulo-pagina {
+    color: black;
+
+}
